@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*{
+	font-size:14px;
+}
+
+.panel {
+    overflow: visible;
+}
+.tabs-panels {
+    overflow: visible;
+}
+
+.mainwrap{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background:#fff;
+}
+
+/*以下是主页面专用样式*/
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+#loding-msg{
+	width:150px;
+	margin:10px auto;
+	padding:5px 10px;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#fff;
+	background:#aaa;
+}
+
+form{
+	margin:0;
+	margin:0;
+}
+
+.login{
+	background:url('images/login_01.gif') no-repeat;
+}
+
+.topmenu{
+	background:#eee url('images/btn.jpg') repeat-x;
+	width:100%;
+}
+.topmenu{}
+.topmenu a{	color:#FFF; text-decoration: none;  display:inline-block; height:23px; margin-top:4px; padding:7px 10px 0px 10px; vertical-align: middle;	}	
+.topmenu a:hover{color: #000;text-decoration: none;  background:#F0E68C;}
+.topmenu .active{color: #000;text-decoration: none;  background:#FFF;}
+
+
+.toptitle{
+	position:absolute;
+	left:20px;
+	color:#E36C10;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#ttl a{color:#000; text-decoration: none; }
+
+ul li {
+	cursor: pointer;
+}
